@@ -29,7 +29,6 @@ public class DescOrAscTest {
 
     @Test(dataProvider = "ascendingNumbers")
     public void should_returnTrue_when_numbersAreInAscendingOrder(List<Integer> numbers) {
-        // Arrange  // Given
         // Act      // When
         System.out.println(numbers);
 
